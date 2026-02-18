@@ -1,4 +1,4 @@
-name: Desplegar en EC2
+name: Ejercicio 1
 
 on:
   workflow_dispatch:
