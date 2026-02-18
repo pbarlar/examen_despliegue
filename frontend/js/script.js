@@ -45,7 +45,7 @@ function cambiarLuz(color) {
  */
 async function obtenerMensajeBackend() {
     try {
-        const response = await fetch('/index.php');
+        const response = await fetch('http://54.159.103.51:3000/index.php');
         const data = await response.json();
         const mensajeDiv = document.getElementById('backend-message');
         if (mensajeDiv) {
